@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>algorithm-docs</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+<style>
+  body, html { padding: 0; margin: 0; } .base-layout { height: 100%; width: 100%; position: absolute; left: 0; top: 0; right: 0; bottom: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(#CCFFCC, #99FFCC); } .spinner { width: 60px; height: 60px; text-align: center; animation: rotate 2.0s infinite linear; } .hello { margin-top: 20px; text-shadow: 0 17px 1px #ccc; font-weight: bold; } .dot1, .dot2 { width: 60%; height: 60%; display: inline-block; position: absolute; top: 0; background-color: #67CF22; border-radius: 100%; animation: bounce 2.0s infinite ease-in-out; } .dot2 { top: auto; bottom: 0px; animation-delay: -1.0s; } @keyframes rotate { 100% { transform: rotate(360deg); } } @keyframes bounce { 0%, 100% { transform: scale(0.0); } 50% { transform: scale(1.0); } }
+</style>
+</head>
+
+<body>
+  <div id="app">
+    <div class="base-layout">
+      <div class="spinner">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+      </div>
+      <div class="hello">
+        Algorithm-docs
+      </div>
+    </div>
+  </div>
+  <script>
+    window.$docsify = {
+      name: 'algorithm-docs',
+      repo: 'https://github.com/ZQ-jhon/algorithm-docs',
+      loadNavbar: false,
+      loadSidebar: true,
+      maxLevel: 4,
+      subMaxLevel: 2,
+    }
+  </script>
+  <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-typescript.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/emoji.js"></script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+</body>
+
+</html>
