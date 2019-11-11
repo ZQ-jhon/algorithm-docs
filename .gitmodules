@@ -1,0 +1,3 @@
+[submodule "try-leetcode"]
+	path = try-leetcode
+	url = git@github.com:ZQ-jhon/try-leetcode.git
