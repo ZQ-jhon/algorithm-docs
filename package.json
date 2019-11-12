@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "npx ts-node ./scripts/compile.ts",
+    "async": "npx ts-node ./scripts/async.ts"
   },
   "keywords": [],
   "author": "",
