@@ -14,14 +14,6 @@ tsFiles.forEach((file, index) => {
     writeFileSync(target[index], content);
 })
 
-
-
-
-
-
-
-
-
 function fileDisplay(filePath: string) {
     readdirSync(filePath).forEach(filename => {
         const p = join(filePath, filename);
