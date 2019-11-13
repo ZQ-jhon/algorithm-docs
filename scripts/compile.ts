@@ -6,7 +6,6 @@ const repoPath = join(__dirname, '../', 'try-leetcode', 'src');
 fileDisplay(repoPath);
 
 const target = tsFiles.map(a => a.split('src')[1]).map(name => join(__dirname, '../', 'docs', 'algorithm', name).replace('.ts', '.md'));
-console.log(target);
 
 tsFiles.forEach((file, index) => {
     const content = '```typescript \n' + readFileSync(file) + '\n```';

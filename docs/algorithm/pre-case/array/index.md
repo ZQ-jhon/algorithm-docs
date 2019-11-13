@@ -1,6 +1,5 @@
 ## Pre-Case Array
 
-
 > ### 1. 原地排序
 
 原地算法
@@ -52,11 +51,12 @@
 [05-single-number](algorithm/pre-case/array/05-single-number.md)
 
 > ### 06-两个数组的交集
-给定两个数组，编写一个函数来计算它们的交集。
-输入: nums1 = [1,2,2,1], nums2 = [2,2]
-输出: [2,2]
-输入: nums1 = [4,9,5], nums2 = [9,4,9,8,4]
-输出: [4,9]
+>
+> 给定两个数组，编写一个函数来计算它们的交集。
+> 输入: nums1 = [1,2,2,1], nums2 = [2,2]
+> 输出: [2,2]
+> 输入: nums1 = [4,9,5], nums2 = [9,4,9,8,4]
+> 输出: [4,9]
 
 [06-intersect](algorithm/pre-case/array/06-intersect.md)
 
@@ -80,3 +80,14 @@
 解释: 输入数组表示数字 4321。
 
 [07-add-one](algorithm/pre-case/array/07-add-one.md)
+
+> ### 08. 移动 0
+
+给定一个数组 nums，编写一个函数将所有 0 移动到数组的末尾，同时保持非零元素的相对顺序。
+
+示例:
+
+输入: [0,1,0,3,12]
+输出: [1,3,12,0,0]
+
+[08-move-zeroes](algorithm/pre-case/array/08-move-zeroes.md)

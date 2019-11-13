@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "compile": "npx ts-node ./scripts/compile.ts",
-    "async": "npx ts-node ./scripts/async.ts"
+    "async": "npx ts-node ./scripts/async.ts",
+    "serve": "npx docsify serve ./docs -o"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +14,7 @@
   "devDependencies": {
     "@types/fs-extra": "^8.0.1",
     "@types/node": "^12.12.7"
-  },
+},
   "dependencies": {
     "fs-extra": "^8.1.0"
   }

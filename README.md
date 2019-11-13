@@ -15,7 +15,7 @@ see scripts directory
 clone this repo, then running command:
 ```bash
 $ npm i
-$ npx docsify ./docs
+$ npm run serve
 ```
 open localhost:3000 for local preview
 
