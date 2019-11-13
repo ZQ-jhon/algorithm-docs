@@ -1,8 +1,6 @@
-import { exec } from 'child_process';
-import { promisify } from 'util';
+import { execute } from "./utils";
 
 const logger = (stdout, stderr) => console.log(stdout, stderr);
-const execute = promisify(exec);
 
 export function asyncChildRepo() {
     return execute(`cd try-leetcode && git pull`)

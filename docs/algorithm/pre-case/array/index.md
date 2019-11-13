@@ -1,8 +1,13 @@
-> ### 1. 两数之和
+## Pre-Case Array
 
-[01-two-num](algorithm/pre-case/array/01-two-num.md)
 
-Given a result and array, return a value as number array, contains the parameter of aresult.
+> ### 1. 原地排序
+
+原地算法
+给定一个排序数组，你需要在原地删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
+不要使用额外的数组空间，你必须在原地修改输入数组并在使用 O(1) 额外空间的条件下完成。
+
+[01-in-place](algorithm/pre-case/array/01-in-place-algorithm.md)
 
 > ### 2. 买卖股票的最佳时机 II
 
@@ -13,7 +18,7 @@ Given a result and array, return a value as number array, contains the parameter
 解释: 在第 2 天（股票价格 = 1）的时候买入，在第 3 天（股票价格 = 5）的时候卖出, 这笔交易所能获得利润 = 5-1 = 4 。
 随后，在第 4 天（股票价格 = 3）的时候买入，在第 5 天（股票价格 = 6）的时候卖出, 这笔交易所能获得利润 = 6-3 = 3 。
 
-[买卖股票最佳时机](algorithm/pre-case/array/02-买卖股票最佳时机.md)
+[买卖股票最佳时机](algorithm/pre-case/array/02-买卖股票最佳时机2.md)
 
 > ### 3. 数组翻转
 

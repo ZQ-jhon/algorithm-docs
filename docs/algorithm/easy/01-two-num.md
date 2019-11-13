@@ -1,4 +1,4 @@
-```typescript
+```typescript 
 import { TimeStatistics } from '../../utils/time-log';
 const TEST_CASE = [[2, 7, 11, 15], 9];
 /**

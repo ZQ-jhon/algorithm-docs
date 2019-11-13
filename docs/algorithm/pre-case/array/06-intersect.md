@@ -1,5 +1,6 @@
-```typescript
-import { TimeStatistics } from "../../utils/time-log";
+```typescript 
+import { TimeStatistics } from '../../../utils/time-log';
+
 const TEST_CASE1 = [[1, 2, 2, 3, 4, 5, 7, 8, 9], [2, 4, 8, 9]];
 // 给定两个数组，编写一个函数来计算它们的交集。
 // 输入: nums1 = [1,2,2,1], nums2 = [2,2]
@@ -13,14 +14,13 @@ const TEST_CASE1 = [[1, 2, 2, 3, 4, 5, 7, 8, 9], [2, 4, 8, 9]];
  * 
  * [1,2,3,4,4,4,4,4,4,4,5,6,7,8,9]
  * [7,4,8,5,9]
- * 结果不应该是 [7,4,5,8,9] 吗？4 明明在两个数组出出现次数不一样啊? 难道是求最大有序交集？
  * 
- * 后来看明白了，求的是无序交集
+ * 后来看明白了，求的是最大无序交集
  * 思路还是 map，降低复杂度
  */
 
 /**
- * O(T) = O(N+N) = O(N)
+ * O(T) = O(N+N) = O(2N) = O(N) 
  */
 function intersect(arr1: number[], arr2: number[]): number[] {
     const map = new Map<number, number>();

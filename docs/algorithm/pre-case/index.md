@@ -1,3 +1,3 @@
-> ### Pre-Case Array
+## Pre-Case 算法预置知识
 
-[pre-case-array](algorithm/pre-case/array/index.md)
+> [01. pre-case-array](algorithm/pre-case/array/index.md)
