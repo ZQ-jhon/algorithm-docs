@@ -1,4 +1,5 @@
 ## Git submodule
+```
 |--Algorithm-Docs
   |-- docs
   |-- scripts
@@ -7,6 +8,7 @@
   |-- .gitignore
   |-- .gitmodules
   |-- README.md // you are here
+```
 
 ## Sync child repo and auto compile
 see scripts directory
