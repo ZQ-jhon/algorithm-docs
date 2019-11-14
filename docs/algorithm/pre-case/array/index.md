@@ -91,3 +91,10 @@
 输出: [1,3,12,0,0]
 
 [08-move-zeroes](algorithm/pre-case/array/08-move-zeroes.md)
+
+
+
+
+> ### 09. 数独是否 “独”
+
+[09-valid-sudo](algorithm/pre-case/array/09-valid-sudoku.md)
