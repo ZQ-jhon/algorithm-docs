@@ -97,4 +97,33 @@
 
 > ### 09. 数独是否 “独”
 
+判断一个 9x9 的数独是否有效。只需要根据以下规则，验证已经填入的数字是否有效即可。
+数字 1-9 在每一行只能出现一次。
+数字 1-9 在每一列只能出现一次。
+数字 1-9 在每一个以粗实线分隔的 3x3 宫内只能出现一次。
+
+如图所示： [图示](https://leetcode-cn.com/explore/featured/card/top-interview-questions-easy/1/array/30/)
+
 [09-valid-sudo](algorithm/pre-case/array/09-valid-sudoku.md)
+
+
+> ### 10. 图像(二维矩阵)翻转
+
+ 给定 
+ matrix = 
+ [
+   [1,2,3],
+   [4,5,6],
+   [7,8,9]
+ ],
+
+ 将 matrix **原地反转** 90°*，使其变为:
+ [
+   [7,4,1],
+   [8,5,2],
+   [9,6,3]
+ ]
+
+要求： **原地翻转**，不得使用额外空间！
+
+[10-reverse-image](algorithm/pre-case/array/10-reverse-image.md)

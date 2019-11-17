@@ -1,7 +1,11 @@
 ## Pre-Case 算法预置知识
 
 > [01. pre-case-array](algorithm/pre-case/array/index.md)
-> 字符串
-> 链表
-> 二叉树
-> 图
+
+> 02 字符串
+
+> 03 链表
+
+> 04 二叉树
+
+> 05 图
