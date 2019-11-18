@@ -2,7 +2,7 @@
 
 > [01. pre-case-array](algorithm/pre-case/array/index.md)
 
-> 02 字符串
+> [02. pre-case-string](algorithm/pre-case/string/index.md)
 
 > 03 链表
 
