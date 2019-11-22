@@ -24,9 +24,12 @@ open localhost:3000 for local preview
 ## The source .ts file written rule
 If you want embeding image to .ts file, using:
 ```typescript
+// Be attention for under row comment code !!!
 // ![image-alt](image/source/xxx.png)
 
-// ts content
+function foo() {
+  // do sth with algorithm
+}
 ```
 And, put the image equal directory with .ts
 
