@@ -31,9 +31,15 @@ function foo() {
   // do sth with algorithm
 }
 ```
-And, put the image equal directory with .ts
 
-Why? please look at `scripts/compile.ts`
+Then, put the image equal directory with .ts, look like:
+|--child_directory
+  |-- 04.ts
+  |-- 04.png
+
+Naming the image as index.
+
+**Why**? please look compile code `scripts/compile.ts`
 
 It's helpful for parse markdown image syntax and showing in terminal article!
 
