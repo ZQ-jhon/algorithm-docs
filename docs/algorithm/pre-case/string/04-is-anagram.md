@@ -1,6 +1,8 @@
+
+// ![04](04.png)
 ```typescript 
 import { TimeStatistics } from "../../../utils/time-log";
-
+// ![04](04.png)
 const string1 = 'anagram';
 const string2 = 'nagaram';
 
@@ -56,12 +58,7 @@ t2.executeTenThousandTimes(); // 2.786 ms
  * 解法2: 将所有的字符，不管 unicode 还是其他字符，直接转成对应的 unicode 编码序号
  * `string.prototype.charCodeAt`
  * 
- * */
-```
-![precase-string-04](04.png)
-
-```typescript
-/**
+ * 如图顶部的截图
  * 原理：将转置后的数组，规约求和，看入参的两个 string 是否相等，简约📚，🙅‍不简单
  * 
  * 评价：这种方法会有异常情况，考虑：
