@@ -21,5 +21,19 @@ $ npm run serve
 ```
 open localhost:3000 for local preview
 
+## The source .ts file written rule
+If you want embeding image to .ts file, using:
+```typescript
+// ![image-alt](image/source/xxx.png)
+
+// ts content
+```
+And, put the image equal directory with .ts
+
+Why? please look at `scripts/compile.ts`
+
+It's helpful for parse markdown image syntax and showing in terminal article!
+
+
 ## Online Docs
 [https://zq-jhon.github.io/algorithm-docs](https://zq-jhon.github.io/algorithm-docs)
