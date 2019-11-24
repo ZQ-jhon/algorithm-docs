@@ -67,3 +67,9 @@ s = "loveleetcode",
 输出: true
 
 [05-回文字符串](algorithm/pre-case/string/05-is-palindrome.md)
+
+> ### 6.字符串转整数
+
+[题干](https://leetcode-cn.com/explore/interview/card/top-interview-questions-easy/5/strings/37/)
+
+[06-字符串转整数](algorithm/pre-case/string/06-atoi.md)
