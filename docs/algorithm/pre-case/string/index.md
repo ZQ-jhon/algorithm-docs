@@ -73,3 +73,8 @@ s = "loveleetcode",
 [题干](https://leetcode-cn.com/explore/interview/card/top-interview-questions-easy/5/strings/37/)
 
 [06-字符串转整数](algorithm/pre-case/string/06-atoi.md)
+
+
+> ### 7. 实现 indexOf
+
+[07-strStr](algorithm/pre-case/string/07-strStr.md)
