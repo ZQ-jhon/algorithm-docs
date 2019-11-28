@@ -33,6 +33,7 @@ function foo() {
 ```
 
 Then, put the image equal directory with .ts, look like:
+
 |--child_directory
   |-- 04.ts
   |-- 04.png
