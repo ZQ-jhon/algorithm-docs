@@ -33,11 +33,11 @@ function foo() {
 ```
 
 Then, put the image equal directory with .ts, look like:
-
+```
 |--child_directory
   |-- 04.ts
   |-- 04.png
-
+```
 Naming the image as index.
 
 **Why**? please look compile code `scripts/compile.ts`
