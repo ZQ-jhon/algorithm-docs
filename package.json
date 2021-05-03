@@ -16,7 +16,7 @@
     "@types/node": "12.19.16"
   },
   "dependencies": {
-    "fs-extra": "^9.0.0",
+    "fs-extra": "^10.0.0",
     "typescript": "^4.0.0"
   }
 }
