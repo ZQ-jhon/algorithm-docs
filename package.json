@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/fs-extra": "9.0.4",
+    "@types/fs-extra": "9.0.13",
     "@types/node": "14.17.29"
   },
   "dependencies": {
